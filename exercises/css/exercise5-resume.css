@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e7ea;
+}
+h1 {
+    color:#353432;
+    background-color: #e0c9eb;
+    padding: 1.5rem;
+    border: solid #b881c5 2px;
+}
+h2 {
+    color:#353432;
+    padding: .5rem;
+    border: solid #d4ade6 2px;
+}
+p {
+    margin: 1.5rem;
+
+}
+img {
+    float: right;
+    border: 2px #ffffff solid; /** controls border width, color, line style **/
+    margin: 1.5rem;
+    max-width: 100%;
+
+}
