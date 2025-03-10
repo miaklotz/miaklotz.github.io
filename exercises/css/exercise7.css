@@ -1,0 +1,78 @@
+body{
+    background-color: #ecb2ce;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    font-family: "Iansui", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+
+}
+main{
+    border: 0px solid #e5adda;
+}
+.wrapper{
+    border: 0px black solid;   /* Shows the edge of our div */
+    margin: 0 auto;              /* Centers element horizontally */
+    max-width: 40rem;            /* In order for the container to appear centered, it needs a width. */
+}
+article{
+    background-color: white;
+    border: 1px solid #615c5c;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .8rem;
+}
+footer{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+/* Link styling */
+a:link{
+    color:#075807;
+}
+a:visited{
+    color: #2433d8;
+}
+a:hover{
+    color: #c01010;
+}
+a:active{
+    color: #a85fe3;
+}
+/* Link styling - header */
+header a:link{
+    color: #e5adda;
+    text-decoration: none;
+}
+header a:visited{
+    color: #1c951c;
+    text-decoration: none;
+}
+header a:hover{
+    color: #dd4973;
+}
+header a:active{
+    color: #615c5c;
+}
+h2.logo{
+    background-color: #e9eaed;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+}
