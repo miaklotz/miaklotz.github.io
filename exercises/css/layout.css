@@ -1,43 +1,44 @@
 h2{
     text-align: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: rgb(87, 116, 94);
     padding: 12px;
     margin: 0px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: normal
 }
 /*Main Layout Navigation*/
 nav li {
     list-style-type: none;
-    background-color: black;
+    background-color: #dfe4e0;
     margin: 1rem;
 }
 nav a {
     text-decoration: none;
-    color: lightgray;
+    color: rgb(148, 179, 149);
     padding: 25px;
 }
 nav a:hover{
-    color: palegoldenrod;
-    background-color: black;
+    color: rgb(93, 156, 106);
+    background-color: rgb(220, 236, 223);
 }
 nav ul{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(87, 116, 94);
     padding: 25px;
     margin: 0;
     flex-wrap: wrap;
 }
 footer{
-    color: white;
-    background-color: black;
+    color: #060606;
+    background-color: rgb(87, 116, 94);
     padding: 1.5rem;
     text-align: center;
     margin-top: auto;
-}
-h1{
-    color: #2c2cc0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
     background-color: white;
@@ -48,35 +49,77 @@ body{
     display: flex;
     flex-direction: column;
 }
-/*Inbedded grid*/
-.grid-container{
-    border: 1px solid black;
+h2.logo{
+    background-color: rgb(87, 116, 94);
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
     display: grid;
-    grid-template-rows: 300px; /*One rows*/
-    grid-template-columns: 1fr 1fr ; /*Two equal columns*/
+    align-items: center;
+    border-radius: 50%;
+}
+/*Inbedded Grid Above Nav*/
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px; /*one row*/
+    grid-template-columns: 1fr 1fr 1fr; /*three columns*/
 }
 .left{
-    background-color: #5c577f;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    display: grid;
     align-content: center;
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    font-weight: bold;
+    background-color: rgb(87, 116, 94);
 }
-.right{
-    background-color: rgb(153, 57, 118);
+.center{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(87, 116, 94);
+}
+.right{
+    grid-area: links;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(87, 116, 94);
+    display: flex;
+    padding: 10px;
+
+}
+.right ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.right li {
+    display: inline;
+    padding: 20px;
+}
+.right a {
+    color: #ffffff;
+}
+.right a:hover {
+    color: beige;
 }
 img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 75%;
+    width: 75%;
+    object-fit: contain;
 }
+.headshotimage{
+    float: right;
+    border: 2px #ffffff solid; /** controls border width, color, line style **/
+    margin: 1.5rem;
+    width: 300px;
+    height: 300px;
+    
+}
+/*Home LinkedIn and Email */
