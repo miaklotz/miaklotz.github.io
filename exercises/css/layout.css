@@ -8,7 +8,7 @@ h2{
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 40px;
-    font-style: normal
+    font-style: normal;
 }
 /*Main Layout Navigation*/
 nav li {
@@ -18,12 +18,14 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: rgb(148, 179, 149);
+    color: rgb(16, 17, 16);
     padding: 25px;
+    border-radius: 35%;
 }
 nav a:hover{
     color: rgb(93, 156, 106);
     background-color: rgb(220, 236, 223);
+    border-radius: 50%;
 }
 nav ul{
     display: flex;
@@ -82,6 +84,10 @@ h2.logo{
     justify-content: center;
     background-color: rgb(87, 116, 94);
 }
+#mia {
+    text-decoration: none;
+    color: black;
+}
 .right{
     grid-area: links;
     grid-row-start: 1;
@@ -119,7 +125,45 @@ img{
     border: 2px #ffffff solid; /** controls border width, color, line style **/
     margin: 1.5rem;
     width: 300px;
-    height: 300px;
+    height: 200px;
     
 }
-
+.headshotimage2{
+   border-radius: 50%;
+   width: 70%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+.layoutparagraph{
+   margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+   
+}
+.h2layout{
+     text-align: center;
+    justify-content: center;
+    background-color: rgb(87, 116, 94);
+    padding: 12px;
+    margin: 0px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: normal;
+}
+.wrapper{
+    border: 0px black solid;   /* Shows the edge of our div */
+    margin: 0 auto;              /* Centers element horizontally */
+    max-width: 60rem;            /* In order for the container to appear centered, it needs a width. */
+}
+article{
+    background-color: white;
+    border: 1px solid #615c5c;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .8rem;
+}
