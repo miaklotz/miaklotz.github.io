@@ -1,7 +1,7 @@
 h2{
     text-align: center;
     justify-content: center;
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
     padding: 12px;
     margin: 0px;
     font-family: "Winky Rough", sans-serif;
@@ -20,7 +20,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-    background-color: rgb(114, 141, 121);
+    background-color: #4B5D50;
     /* color:red; */
     padding: 2.5px;
     padding-left: 10px;
@@ -38,14 +38,14 @@ nav a:hover{
 nav ul{
     display: flex;
     justify-content: center;
-    background-color: rgb(114, 141, 121);
+    background-color: #4B5D50;
     padding: 25px;
     margin: 0;
     flex-wrap: wrap;
 }
 footer{
     color: white;
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
     padding: 1.5rem;
     text-align: center;
     margin-top: auto;
@@ -60,7 +60,7 @@ body{
     flex-direction: column;
 }
 h2.logo{
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
     text-align: center;
     width: 6rem;
     height: 6rem;
@@ -81,7 +81,7 @@ h2.logo{
     grid-column-end: 2;
     align-content: center;
     justify-content: center;
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
 }
 .center{
     grid-row-start: 1;
@@ -90,7 +90,7 @@ h2.logo{
     grid-column-end: 3;
     align-content: center;
     justify-content: center;
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
 }
 #mia {
     text-decoration: none;
@@ -104,7 +104,7 @@ h2.logo{
     grid-column-end: 4;
     align-content: center;
     justify-content: center;
-    background-color: rgb(87, 116, 94);
+    background-color: #4B5D50;
     display: flex;
     padding: 10px;
 
