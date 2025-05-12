@@ -14,24 +14,31 @@ h2{
 /**Main Layout Navigation**/
 nav li {
     list-style-type: none;
-    background-color: #dfe4e0;
+    /* background-color: #dfe4e0; */
     margin: 1rem;
 }
 nav a {
     text-decoration: none;
-    color: rgb(16, 17, 16);
-    padding: 25px;
-    border-radius: 35%;
+    color: white;
+    background-color: rgb(114, 141, 121);
+    /* color:red; */
+    padding: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    /* border-radius: 35%; */
 }
 nav a:hover{
     color: rgb(93, 156, 106);
     background-color: rgb(220, 236, 223);
+    padding: 20px;
     border-radius: 50%;
+    margin: 0px;
 }
 nav ul{
     display: flex;
     justify-content: center;
-    background-color: rgb(87, 116, 94);
+    background-color: rgb(114, 141, 121);
     padding: 25px;
     margin: 0;
     flex-wrap: wrap;
@@ -239,4 +246,10 @@ article{
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+.pcontactimagecredit{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: smaller;
 }
