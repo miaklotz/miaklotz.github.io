@@ -281,7 +281,7 @@ nav.title-bar
 	display: block;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #076685;
+	background-color: #5879bc;
 }
 
 nav.title-bar .menu-icon
@@ -339,8 +339,8 @@ nav.title-bar .menu-icon
 	width: 229px;
 	height: 55px;
 	align-self: center;
-	background: transparent url('Images/Logo.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+	background: transparent url('Images/madcapflarelogo.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/madcapflarelogo.png') no-repeat center center;
 }
 
 .title-bar-container
@@ -1840,7 +1840,7 @@ h1#results-heading
 
 .featured-snippets-container .micro-response-title a
 {
-	color: #076685;
+	color: #5879bc;
 	text-decoration: underline;
 }
 
@@ -1852,27 +1852,27 @@ h1#results-heading
 
 .featured-snippets-container .micro-response-title a:visited
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 .featured-snippets-container .micro-response-title a:focus
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 .featured-snippets-container .micro-response-title a:hover
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 .featured-snippets-container .micro-response-title a:active
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 .featured-snippets-container .micro-response-url cite
 {
-	color: #076685;
+	color: #5879bc;
 	font-size: 0.9em;
 	font-style: normal;
 }
@@ -1894,7 +1894,7 @@ h1#results-heading
 	border-right: solid 1px #FFFFFF;
 	border-top: solid 1px #FFFFFF;
 	border-bottom: solid 1px #FFFFFF;
-	color: #076685;
+	color: #5879bc;
 	font-size: 1em;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -1930,7 +1930,7 @@ h1#results-heading
 
 #resultList h3.title a
 {
-	color: #076685;
+	color: #5879bc;
 	font-size: 1em;
 }
 
@@ -1942,13 +1942,13 @@ h1#results-heading
 
 #resultList h3.title a:visited
 {
-	color: #076685;
+	color: #5879bc;
 	text-decoration: underline;
 }
 
 #resultList h3.title a:focus
 {
-	color: #076685;
+	color: #5879bc;
 	text-decoration: underline;
 }
 
@@ -1959,13 +1959,13 @@ h1#results-heading
 
 #resultList h3.title a:active
 {
-	color: #076685;
+	color: #5879bc;
 	text-decoration: underline;
 }
 
 #resultList .url cite
 {
-	color: #076685;
+	color: #5879bc;
 	font-size: 0.8em;
 	font-style: normal;
 }
@@ -1997,7 +1997,7 @@ h1#results-heading
 
 .phrase-suggest a
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 .sidenav-container ul ul

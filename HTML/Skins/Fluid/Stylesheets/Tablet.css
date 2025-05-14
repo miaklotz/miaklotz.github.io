@@ -58,7 +58,7 @@
 		background-repeat: no-repeat;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		background-color: #076685;
+		background-color: #5879bc;
 	}
 
 	/* Topbar Menu Styles */
@@ -87,8 +87,8 @@
 		margin: 0;
 		width: 229px;
 		height: 55px;
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		background: transparent url('Images/madcapflarelogo.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/madcapflarelogo.png') no-repeat center center;
 	}
 
 	.title-bar .menu-icon span
