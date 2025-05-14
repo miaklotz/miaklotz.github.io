@@ -5,7 +5,7 @@
 body
 {
 	color: #45494C;
-	font-family: Arial, Avenir, Myriad;
+	font-family: sans-serif;
 }
 
 .body-container
@@ -204,7 +204,7 @@ h1
 {
 	font-weight: bold;
 	font-size: 24.0pt;
-	color: #076685;
+	color: #5879bc;
 }
 
 h2
@@ -277,7 +277,7 @@ div.home-tiles > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background-color: #CDE0E7;
+	background-color: #83a1d6;
 	padding: 2%;
 	color: #000000;
 }
@@ -441,17 +441,17 @@ MadCap|breadcrumbsProxy
 
 a
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 a:link
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 a:visited
 {
-	color: #076685;
+	color: #5879bc;
 }
 
 MadCap|dropDown
@@ -491,7 +491,7 @@ MadCap|expandingHead
 	font-weight: normal;
 	cursor: hand;
 	text-decoration: none;
-	color: #076685;
+	color: #5879bc;
 }
 
 MadCap|xref
@@ -499,7 +499,7 @@ MadCap|xref
 	font-weight: bold;
 	mc-format: '{para}';
 	text-decoration: underline;
-	color: #076685;
+	color: #5879bc;
 }
 
 /* Lists */
@@ -545,7 +545,7 @@ p.frame-footer-text
 
 .page-layout-front-header
 {
-	background-color: #076685;
+	background-color: #5879bc;
 	height: 155px;
 	width: 825px;
 }
@@ -555,14 +555,14 @@ p.frame-footer-text
 	height: 90px;
 	width: 724px;
 	background-color: transparent;
-	background-image: url('../Images/Logo.svg');
+	background-image: url('../../Resources/Images/madcapflarelogo.png');
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 }
 
 .page-layout-front-main
 {
-	background-color: #CDE0E7;
+	background-color: #83a1d6;
 	height: 650px;
 	margin: 0px;
 }
@@ -581,13 +581,13 @@ p.frame-footer-text
 
 div.home-footer
 {
-	background-color: #076685;
+	background-color: #5879bc;
 	padding: 2% 5%;
 }
 
 .home-footer-logo
 {
-	background-image: url('../Images/Logo.png');
+	background-image: url('../../Resources/Images/madcapflarelogo.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	width: 400px;
